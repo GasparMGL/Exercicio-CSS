@@ -2,71 +2,58 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    height: auto;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
 }
 
 header li{
     display: inline;
 }
 
-.container {
-    width: 1300px ;
+.conteiner {
+    width: 1366px;
     margin: 0 auto 0 auto;
 }
 
-.articles {
+.articles{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.articles article img{
-    height: 360px;
-    width: 100%; 
+.articles article img{ 
+    height: 250px;
+    width: 400px;
 }
 
 .articles article{
-    width: 40%;
+    width: 30%;
 }
 
-h1 {
-    color: #2b2c41;
-    ; /*fundo principal*/
+body > header { background: linear-gradient(to bottom, #80BCBD, #AAD9BB); }
 
-/*Fonte rockwell*/
-}
+body section{ background-color: #D5F0C1}
 
-h2{
-    color: #baffc9;
-}
+body footer { background-color: #2b2c41;}
 
-#news h2
-{
-    color:  #f3f1da; /*fundo secundario*/
-}
+header section article img {
+    height: 100px;
+    width: 100px;
+} 
 
-#economy h2
-{
-    color: #6c72be;
-}
-
-#sport h2
-{
-    color: #f3dada;
-}
-
-#cars h2
-{
-    color:  #404066;
-}
-
-#games h2 
-{
-    color: #edcc6f;
-}
-
-/*color: #2b2c41;*/
-
-body
-{
-    background-color: #bae1ff;
-}
+/*
+color: #2b2c41;
+Fonte rockwell
+#baffc9;
+#f3f1da;
+#6c72be;
+#f3dada
+#404066;
+#edcc6f;
+#2b2c41;
+#bae1ff;
+*/
