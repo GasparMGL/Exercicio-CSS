@@ -5,6 +5,17 @@
     height: auto;
 }
 
+body > header { 
+    background: linear-gradient(to bottom, #80BCBD, #AAD9BB); 
+    padding: 16px 0;
+}
+
+header .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header img {
     height: 50px;
     width: 50px;
@@ -12,6 +23,11 @@ header img {
 
 header li{
     display: inline;
+}
+
+header li a{
+    text-decoration: none;
+    color:#404066;
 }
 
 .conteiner {
@@ -34,16 +50,98 @@ header li{
     width: 30%;
 }
 
-body > header { background: linear-gradient(to bottom, #80BCBD, #AAD9BB); }
+.articles article h3 {
+    margin: 16px 0;
+    font-size: 24px;
+}
 
-body section{ background-color: #D5F0C1}
+.articles article a{ 
+    color: white;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: background .3s;
+    font-weight: bold;
+    margin-top: 8px;
+}
 
-body footer { background-color: #2b2c41;}
+.articles article a:hover{
+    text-decoration:underline;
+}
+
+.articles article p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{ 
+    padding: 16px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+    font-size: 32px;
+}
 
 header section article img {
     height: 100px;
     width: 100px;
 } 
+
+.conteiner p{
+    align-items: center;
+    justify-content:right;
+}
+
+#technology {
+    background-color: #edcc6f;
+}
+
+#technology .articles article a {
+    background-color: #B80000;
+}
+#technology .articles article h3 {
+    color: #B80000;
+}
+
+#economy {
+    background-color: #51829B;
+}
+
+#economy .articles article a {
+    background-color: #E1AA74;
+}
+#economy .articles article h3 {
+    color: #E1AA74;
+}
+
+#entertainment {
+    background-color: #8B322C;
+}
+
+#entertainment .articles article a {
+    background-color: #DD5746;
+}
+#entertainment .articles article h3 {
+    color: #DD5746;
+}
+
+#esports {
+    background-color: #89375F;
+}
+
+#esports .articles article a {
+    background-color: #A86464;
+}
+#esports .articles article h3 {
+    color: #A86464;
+}
+
+body footer { background-color: #404066;}
+
+footer .articles p{
+    justify-content: center;
+}
 
 /*
 color: #2b2c41;
